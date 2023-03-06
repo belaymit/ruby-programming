@@ -125,7 +125,6 @@ puts new_arr
 new_arr.map { |el| p el * 2 } # => [2, 4, 6, 8, 10]
 puts new_arr # => [1, 2, 3, 4, 5]
 
-
 new_arr.map! { |e| e**2 } # => [1, 4, 9, 16, 25]
 p new_arr # => [1, 4, 9, 16, 25]
 
